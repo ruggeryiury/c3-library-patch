@@ -10,7 +10,7 @@
 
 __C3 Library Patch__ provides several missing metadata informations (like vocal tonic note, rating), fixes many album art and other discrepancies for many customs from the large C3 catalog to make your song library look more structured and homogenic while playing customs!
 
-C3 Library Patch has metadata updates for __125__ customs (_as on version 1.0.2_)!
+C3 Library Patch has metadata updates for __178__ customs (_as on version 1.0.3_)!
 
 ## Installation (using Rock Band 3 Deluxe):
 

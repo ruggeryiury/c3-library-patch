@@ -1,7 +1,7 @@
 {
   "name": "c3-library-patch",
   "description": "Metadata patch for several C3 Customs, for a more structured and homogenized song library.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "c3_library_patch.dta",
   "repository": "https://github.com/ruggeryiury/c3-library-patch.git",
   "author": "Ruggery Iury Corrêa <ruggeryiury@gmail.com>",
