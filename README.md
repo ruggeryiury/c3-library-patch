@@ -10,9 +10,17 @@
 
 __C3 Library Patch__ provides several missing metadata informations (like vocal tonic note, rating), fixes many album art and other discrepancies for many customs from the large C3 catalog to make your song library look more structured and homogenic while playing customs!
 
-C3 Library Patch has metadata updates for __190__ customs (_as on version 1.0.4_)!
+C3 Library Patch has metadata updates for __215__ customs (_as on version 1.0.5_)!
 
-## Installation (using Rock Band 3 Deluxe):
+- - - -
+
+## 💠 Table of Contents
+
+- [Installation (using Rock Band 3 Deluxe)](#installation-using-rock-band-3-deluxe)
+- [Troubleshooting](#troubleshooting)
+- [Collaborating](#collaborating)
+
+# Installation (using Rock Band 3 Deluxe)
 
 - __Clone/Download the *Rock Band 3 Deluxe* repository:__
   -  To install the *C3 Library Patch*, you need to clone the [*Rock Band 3 Deluxe* repository](https://github.com/hmxmilohax/rock-band-3-deluxe) to manually generate a patch file for Rock Band 3.
@@ -21,7 +29,7 @@ C3 Library Patch has metadata updates for __190__ customs (_as on version 1.0.4_
 - __Set up *Rock Band 3 Deluxe* to merge all missing metadata information from *C3 Library Patch*:__
   - Once cloned/downloaded the *Rock Band 3 Deluxe* repository, go to `_ark/songs` inside of it and edit the `missing_song_data.dta`, adding this to the end of the file (and saving the file after):
   
-    ```plaintext
+    ```text
     #merge ../dx/song_updates/c3_library_patch.dta
     ```
 - __Copy the `c3_library_patch.dta` file:__
@@ -32,10 +40,16 @@ C3 Library Patch has metadata updates for __190__ customs (_as on version 1.0.4_
   - Follow the instructions on the [*Rock Band 3 Deluxe* repository](https://github.com/hmxmilohax/rock-band-3-deluxe) to properly build your own version of the *Rock Band 3 Deluxe* patch and place it on your system/emulator.
 - __Enjoy *C3 Library Patch*!__
 
-## Frequently Asked Questions
+# Troubleshooting
 
-- *The updated metadata is not showing in one/a few customs, but some others do. What's going on?*
+- **The updated metadata is not showing in one/a few customs, but some others do:**
   - Probably the charter updated the song itself and changed the shortname of the custom you've downloaded. Contact me if this happens.
 
-- *The metadata of the song is updated but I notice the lipsync/venues is gone. What's going on?*
+- **The metadata of the song is updated but I notice the lipsync/venues is gone:**
   - Probably I forgot to properly place the updated song's MILO file inside the patch. All songs that has fixed album arts must have a copy of the MILO file inside the patch (since the patch tries to read both files from the patch and not from the custom file anymore). Contact me if this happens.
+
+- **After installing _C3 Library Patch_, some official songs/DLCs are using artworks from another song:**
+  - This happens because a custom is using the same internal shortname of a official song/DLC. Contact me if this happens, as the updated song must be removed from the patch until the charter itself changes the internal shortname of its own custom.
+
+# Collaborating
+
