@@ -10,7 +10,7 @@
 
 __C3 Library Patch__ provides several missing metadata informations (like vocal tonic note, rating), fixes many album art and other discrepancies for many customs from the large C3 catalog to make your song library look more structured and homogenic while playing customs!
 
-C3 Library Patch has metadata updates for __215__ customs (_as on version 1.0.5_)!
+C3 Library Patch has metadata updates for __228__ customs (_as on version 1.0.6_)!
 
 - - - -
 
@@ -18,7 +18,6 @@ C3 Library Patch has metadata updates for __215__ customs (_as on version 1.0.5_
 
 - [Installation (using Rock Band 3 Deluxe)](#installation-using-rock-band-3-deluxe)
 - [Troubleshooting](#troubleshooting)
-- [Collaborating](#collaborating)
 
 # Installation (using Rock Band 3 Deluxe)
 
@@ -50,6 +49,3 @@ C3 Library Patch has metadata updates for __215__ customs (_as on version 1.0.5_
 
 - **After installing _C3 Library Patch_, some official songs/DLCs are using artworks from another song:**
   - This happens because a custom is using the same internal shortname of a official song/DLC. Contact me if this happens, as the updated song must be removed from the patch until the charter itself changes the internal shortname of its own custom.
-
-# Collaborating
-
