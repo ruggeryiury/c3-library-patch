@@ -10,7 +10,7 @@
 
 __C3 Library Patch__ provides several missing metadata informations (like vocal tonic note, rating), fixes many album art and other discrepancies for many customs from the large C3 catalog to make your song library look more structured and homogenic while playing customs!
 
-C3 Library Patch has metadata updates for __228__ customs (_as on version 1.0.6_)!
+C3 Library Patch has metadata updates for __248__ customs (_as on version 1.0.7_)!
 
 - - - -
 
@@ -23,6 +23,7 @@ C3 Library Patch has metadata updates for __228__ customs (_as on version 1.0.6_
 
 - __Clone/Download the *Rock Band 3 Deluxe* repository:__
   -  To install the *C3 Library Patch*, you need to clone the [*Rock Band 3 Deluxe* repository](https://github.com/hmxmilohax/rock-band-3-deluxe) to manually generate a patch file for Rock Band 3.
+  -  **NOTE: C3 Library Patch only works properly on [version 1.1.0-beta11](https://github.com/hmxmilohax/rock-band-3-deluxe/releases/tag/v1.1.0-beta11) or newer. Older versions won't load lipsync and venues, but the metadata will work just fine.**
 - __Clone/Download *this* repository:__
   -  If you want to download this repository as a `.zip` file, just go on the repository's main page, click on the blue `<> Code` button on the top, then select `Download ZIP` (or click [here](https://github.com/ruggeryiury/c3-library-patch/archive/refs/heads/main.zip)).
 - __Set up *Rock Band 3 Deluxe* to merge all missing metadata information from *C3 Library Patch*:__
@@ -45,7 +46,8 @@ C3 Library Patch has metadata updates for __228__ customs (_as on version 1.0.6_
   - Probably the charter updated the song itself and changed the shortname of the custom you've downloaded. Contact me if this happens.
 
 - **The metadata of the song is updated but I notice the lipsync/venues is gone:**
-  - Probably I forgot to properly place the updated song's MILO file inside the patch. All songs that has fixed album arts must have a copy of the MILO file inside the patch (since the patch tries to read both files from the patch and not from the custom file anymore). Contact me if this happens.
+  - ~~Probably I forgot to properly place the updated song's MILO file inside the patch. All songs that has fixed album arts must have a copy of the MILO file inside the patch (since the patch tries to read both files from the patch and not from the custom file anymore). Contact me if this happens.~~
+    - ***Update:*** *As I mentioned eariler, this behavior has changed as from Rock Band 3 Deluxe `version 1.1.0-beta11`, where album artworks can be read directly from the patch without needing to use the `alternate_path` value on the DTA, and with this, there's no need to have a copy of the song's MILO file on the patch, making this error unlikely to happen on the `version 1.1.0-beta11` or newer.*
 
 - **After installing _C3 Library Patch_, some official songs/DLCs are using artworks from another song:**
   - This happens because a custom is using the same internal shortname of a official song/DLC. Contact me if this happens, as the updated song must be removed from the patch until the charter itself changes the internal shortname of its own custom.
